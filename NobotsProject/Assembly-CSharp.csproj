@@ -55,7 +55,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Game\Gameplay\Enemies\Scripts\CoreScript.cs" />
+     <Compile Include="Assets\Game\Gameplay\Enemies\Core\CoreScript.cs" />
+     <Compile Include="Assets\Game\Gameplay\Enemies\Core\ShieldScript.cs" />
+     <Compile Include="Assets\Game\Gameplay\Enemies\GeneralEnemyScripts\ShootingSystem.cs" />
+     <Compile Include="Assets\Game\Gameplay\Enemies\GeneralEnemyScripts\TrackingSystem.cs" />
+     <Compile Include="Assets\Game\Gameplay\Enemies\Projectiles\BaseProjectile.cs" />
+     <Compile Include="Assets\Game\Gameplay\Enemies\Projectiles\NormalProjectile.cs" />
+     <Compile Include="Assets\Game\Gameplay\Enemies\Turret\TurretAI.cs" />
      <Compile Include="Assets\Game\Gameplay\GeneralScripts\Bouncer.cs" />
      <Compile Include="Assets\Game\Gameplay\GeneralScripts\GameManager.cs" />
      <Compile Include="Assets\Game\Gameplay\GeneralScripts\GodMode.cs" />
@@ -66,49 +72,49 @@
      <Compile Include="Assets\Game\Gameplay\Player\PlayerController.cs" />
      <Compile Include="Assets\Game\Logo\LogoScript.cs" />
  <Reference Include="Unity.Timeline.Editor">
- <HintPath>C:/Users/alvar/OneDrive/Escritorio/VOYAPUTOMATARAALGUIEN/Nobots/NobotsProject/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ <HintPath>C:/Users/alvar/OneDrive/Escritorio/Nobots2/NobotsProject/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Cinemachine">
- <HintPath>C:/Users/alvar/OneDrive/Escritorio/VOYAPUTOMATARAALGUIEN/Nobots/NobotsProject/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+ <HintPath>C:/Users/alvar/OneDrive/Escritorio/Nobots2/NobotsProject/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VSCode.Editor">
- <HintPath>C:/Users/alvar/OneDrive/Escritorio/VOYAPUTOMATARAALGUIEN/Nobots/NobotsProject/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ <HintPath>C:/Users/alvar/OneDrive/Escritorio/Nobots2/NobotsProject/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.ProBuilder">
- <HintPath>C:/Users/alvar/OneDrive/Escritorio/VOYAPUTOMATARAALGUIEN/Nobots/NobotsProject/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
+ <HintPath>C:/Users/alvar/OneDrive/Escritorio/Nobots2/NobotsProject/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
  </Reference>
  <Reference Include="Unity.ProBuilder.Editor">
- <HintPath>C:/Users/alvar/OneDrive/Escritorio/VOYAPUTOMATARAALGUIEN/Nobots/NobotsProject/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
+ <HintPath>C:/Users/alvar/OneDrive/Escritorio/Nobots2/NobotsProject/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
- <HintPath>C:/Users/alvar/OneDrive/Escritorio/VOYAPUTOMATARAALGUIEN/Nobots/NobotsProject/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+ <HintPath>C:/Users/alvar/OneDrive/Escritorio/Nobots2/NobotsProject/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>C:/Users/alvar/OneDrive/Escritorio/VOYAPUTOMATARAALGUIEN/Nobots/NobotsProject/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>C:/Users/alvar/OneDrive/Escritorio/Nobots2/NobotsProject/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>C:/Users/alvar/OneDrive/Escritorio/VOYAPUTOMATARAALGUIEN/Nobots/NobotsProject/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Users/alvar/OneDrive/Escritorio/Nobots2/NobotsProject/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
- <HintPath>C:/Users/alvar/OneDrive/Escritorio/VOYAPUTOMATARAALGUIEN/Nobots/NobotsProject/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ <HintPath>C:/Users/alvar/OneDrive/Escritorio/Nobots2/NobotsProject/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.CollabProxy.Editor">
- <HintPath>C:/Users/alvar/OneDrive/Escritorio/VOYAPUTOMATARAALGUIEN/Nobots/NobotsProject/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ <HintPath>C:/Users/alvar/OneDrive/Escritorio/Nobots2/NobotsProject/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Rider.Editor">
- <HintPath>C:/Users/alvar/OneDrive/Escritorio/VOYAPUTOMATARAALGUIEN/Nobots/NobotsProject/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ <HintPath>C:/Users/alvar/OneDrive/Escritorio/Nobots2/NobotsProject/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
  <Reference Include="com.unity.cinemachine.editor">
- <HintPath>C:/Users/alvar/OneDrive/Escritorio/VOYAPUTOMATARAALGUIEN/Nobots/NobotsProject/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+ <HintPath>C:/Users/alvar/OneDrive/Escritorio/Nobots2/NobotsProject/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.ProBuilder.AddOns.Editor">
- <HintPath>C:/Users/alvar/OneDrive/Escritorio/VOYAPUTOMATARAALGUIEN/Nobots/NobotsProject/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
+ <HintPath>C:/Users/alvar/OneDrive/Escritorio/Nobots2/NobotsProject/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>C:/Users/alvar/OneDrive/Escritorio/VOYAPUTOMATARAALGUIEN/Nobots/NobotsProject/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>C:/Users/alvar/OneDrive/Escritorio/Nobots2/NobotsProject/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>C:/Users/alvar/OneDrive/Escritorio/VOYAPUTOMATARAALGUIEN/Nobots/NobotsProject/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>C:/Users/alvar/OneDrive/Escritorio/Nobots2/NobotsProject/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.0f3/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
